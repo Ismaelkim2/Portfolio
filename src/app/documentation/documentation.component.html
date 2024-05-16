@@ -1,0 +1,18 @@
+<app-header style="top: 0; position: fixed;"></app-header>
+
+<div class="drop-area" cdkDropList (cdkDropListDropped)="onDrop($event)">
+    <div *ngFor="let pdf of pdfs" class="pdf-item" cdkDrag>
+        <ng-container *ngIf="isImage(pdf.name)">
+            <img [src]="pdf.thumbnail" alt="File Thumbnail">
+        </ng-container>
+        <ng-container *ngIf="!isImage(pdf.name)">
+            <div class="file-placeholder">
+                <!-- Display placeholder for non-image files -->
+                <p>{{ pdf.name }}</p>
+                <p>File type not supported</p>
+            </div>
+        </ng-container>
+    </div>
+
+    <input type="file" (change)="onFileSelected($event)" #fileInput>
+</div>

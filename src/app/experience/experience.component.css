@@ -1,0 +1,57 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-top: 80px;
+    }
+}
+
+.Tech{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.Course{
+    background-color: rgb(194, 187, 187);
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin-left: 36%;
+   
+}
+
+span{
+    color: rgb(150, 150, 13);
+}
+
+.FrontEnd,.BackEnd,.DataAnalytics{
+    background-color: rgb(194, 187, 187);
+    width: 300px;
+    height: 350px;
+    border-radius: 12px;
+   
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(207, 71, 71);
+    font-size: 25x;
+
+}
+li{
+    font-size: 20px;
+    padding: 8px;
+}
+h5{
+    text-align: center;
+}
+h4{
+    margin-top: 60px;
+    width: auto;
+    text-align: center;
+}

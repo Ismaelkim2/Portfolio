@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+ h2{
+    color: rgb(23, 23, 233);
+    margin-top: 50px;
+ }
+  .contact{
+    width: 600px;
+    height: 200px;
+    margin-left: 180px;
+  }
+
+  .demo{
+    width: 550px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+
+  }
+  img{
+    width: 550px;
+   float: left;
+   height: 400px;
+  }

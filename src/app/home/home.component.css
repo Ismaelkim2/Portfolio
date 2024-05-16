@@ -1,0 +1,66 @@
+.container {
+   display: flex;
+   justify-content: space-between;
+   height: 400px;
+   width: 100vw;
+  }
+
+  .contactMe{
+    width: 100px;
+    height: auto;
+    float: left;
+    color: rgb(23, 23, 233);
+    margin-top: 10px;
+  }
+  .contactMe h2 i{
+    color: inherit;
+  }
+
+  .note {
+    width: 550px;
+    background-color: rgb(231, 226, 226);
+    width: 500px;
+    border-radius: 12px;
+    margin-top: 140px;
+    margin-bottom: 60px;
+    height:400px;
+    left: 0px;
+    margin-left: 20px;
+  }
+  
+  .myLogo {
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+  }
+  
+  .myLogo img {
+    display: block;
+    width: 400px; /* Ensure the image fills its container */
+    height: 400px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 200px;
+  }
+
+  h2{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  span{
+    font-weight: bold;
+  }
+  h3{
+    margin-left: 20px;
+  }
+
+  button{
+    margin-left: 30px;
+    border-radius: 12px;
+  }
+  hr{
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 0px;
+    height: 2px;
+  }
